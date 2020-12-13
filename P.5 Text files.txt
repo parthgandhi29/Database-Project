@@ -1,0 +1,644 @@
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'1950 Summit Park Dr', 'Orlando', 'FL', '32810', 'USA', '4073864000');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'2341 Key West Drive', 'Key West', 'FL', '33040', 'USA', '8772432378');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'5510 Lincoln Blvd', 'Playa Vista', 'FL', '90094', 'USA', '3107547125');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'209 Redwood Shores Pkwy', 'Redwood City', 'CA', '94065', 'USA', '6506281500');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'7700 W Parmer Ln', 'Austin', 'TX', '78729', 'USA', '5124206969');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'213 Freeport Dr', 'Glendale Heights', 'IL', '60139', 'USA', '6305552264');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'5634 Harvard Ct', 'Cambridge', 'MA', '02139', 'USA', '6174951000');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'1235 Francisco Ln', 'DeKalb', 'IL', '60115', 'USA', '8157531000');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'221 N LaSalle Dr', 'Chicago', 'IL', '60603', 'USA', '6506281500');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'21715 Filigree Ct', 'Ashburn', 'VA', '20147', 'USA', '5712230158');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'324 State St', 'Salt Lake City', 'UT', '84111', 'USA', '8014107300');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'340 E Parker Blvd', 'Baton Rouge', 'LA', '70808', 'USA', '2253666000');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'105 SE 22nd St #3', 'Bentonville', 'AR', '72712', 'USA', '4794640730');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'4330 Sanderson Way', 'Burnaby', 'BC', '56719', 'Canada', '6044563600');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'1200 Waukegan Street', 'Waukegan', 'IL', '60079', 'USA', '8472471000');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'9876 Northern Street', 'DeKalb', 'IL', '60115', 'USA', '8157586225');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'2605 W Devon Ave', 'Chicago', 'IL', '60659', 'USA', '7733383636');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'2410 W Army Trail Rd', 'Hanover Park', 'IL', '60133', 'USA', '630132222');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'1060 W Addison St', 'Chicago', 'IL', '60613', 'USA', '7734042827');
+INSERT INTO LOCATION
+	(Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'1901 W Madison St', 'Chicago', 'IL', '60612', 'USA', '3124554500');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Mascote', 'Francisco', '2199 England Ave', 'Carol Stream', 'IL', '60132', 'USA', '7792129380', '1');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Gandhi', 'Parth', '213 Freeport Dr', 'Bloomingdale', 'IL', '60108', 'USA', '7088023060', '9');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Alvarez', 'Juan', '461 Oxford Ct', 'Tampa', 'FL', '33601', 'USA', '4523455679', '2');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Bezoz', 'Alexa', '410 Terry Ave', 'N Seattle', 'WA', '98109', 'USA', '2062661000', '4');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Gleason', 'John', '325 Oak St', 'Oak Forest', 'IL', '60452', 'USA', '7084297213', '3');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Siddhart', 'Shah', '825 Jackson Ave', 'Jersey City', 'NJ', '07030', 'USA', '518603333', '7');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Mihir', 'Patel', '630 Bender St', 'Hillsborough', 'NJ', '08821', 'USA', '3024298888', '5');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Micheal', 'Jackson', '2509 MJ Ct', 'Dallas', 'TX', '75001', 'USA', '2145490971', '8');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Shah', 'Akash', '338 Autumn Ct', 'Middletown', 'DE', '19706', 'USA', '3124125555', '15');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Shah', 'Vikash', '338 Autumn Ct', 'Middletown', 'DE', '19706', 'USA', '3124123232', '13');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Shah', 'Bhumi', '213 Freeport Dr', 'Bloomingdale', 'IL', '60108', 'USA', '8004044242', '6');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Shah', 'Santesh', '338 Autumn Ct', 'Middletown', 'DE', '19706', 'USA', '3124043062', '18');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Walker', 'Paul', '2264 Century Point Ln', 'Glendale Heights', 'IL', '60139', 'USA', '7083043060', '11');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Diesel', 'Vin', '202 Fast and Furious Dr', 'Los Angeles', 'CA', '90001', 'USA', '4248023060', '12');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Bender', 'Brian', '413 Captain America Ct', 'Rockford', 'IL', '61016', 'USA', '8153002000', '17');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Kumar', 'Akshay', '200 Boss Baby Ct', 'Atlanta', 'GA', '30301', 'USA', '6781234567', '10');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Bachchan', 'Amitabh', '114 Why Him Ct', 'New York', 'NY', '10022', 'USA', '4123214242', '14');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Alvarez', 'Juan', '332 Barsema Ct', 'DeKalb', 'IL', '60112', 'USA', '7792245456', '16');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Kirchner', 'Avery', '229 Kirchner Ave', 'Elmhurst', 'IL', '60106', 'USA', '3317036718', '19');
+INSERT INTO EMPLOYEE
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone, LocationID)
+	Values (
+	'Patel', 'Chintan', '990 Kuhn Road', 'Carol Stream', 'IL', '60128', 'USA', '6308866809', '20');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Mapes', 'Amanda', '1234 Cutest Point Ave', 'Seattle', 'WA', '98109', 'USA', '2242023300');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Patel', 'Jinesh', '381 Hesterman Dr', 'Carol Stream', 'IL', '60128', 'USA', '3312188110');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Shamrock', 'Patrick', '229 Schmale Ct', 'Schaumburg', 'IL', '60172', 'USA', '8479076768');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Roman', 'Juan', '124 Awesome St', 'Wisconsin Dells', 'IL', '53965', 'USA', '6082223344');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Eick', 'Jason', '423 Einstein Dr', 'Albany', 'NY', '12204', 'USA', '8477703718');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Hogan', 'James', '3421 Cool St', 'Kansas', 'MO', '66101', 'USA', '9134222017');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (	
+	'Columbus', 'Chris', '112 Freedom Ave', 'Detroit', 'MI', '48204', 'USA', '3139887654');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Gump', 'Forest', '446 N Hank Hwy', 'Newark', 'NJ', '60541', 'USA', '9738863542');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Porter', 'Harry', '23 Microsoft Pkwy', 'Redmond', 'WA', '98052', 'USA', '4253132465');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Shark', 'Robert', '252 Zing Ct', 'Boston', 'MA', '02114', 'USA', '8324657643');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'McDaniel', 'Eddy', '891 North Ave', 'Midlothian', 'IL', '60445', 'USA', '8045455678');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Kachlik', 'Matt', '612 Hollywood Ave', 'San Francisco', 'CA', '94105', 'USA', '4157622341');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Fellon', 'Jimmy', '4242 Fellon Dr', 'New York', 'NY', '10009', 'USA', '9178229000');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Ferro', 'Chris', '970 BAPS Rd', 'Bartlett', 'IL', '60103', 'USA', '9013237423');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Angio', 'Fred', '101 S Jackson St', 'Chicago', 'IL', '60176', 'USA', '8721212133');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Lacy', 'Samuel', '301 N Michian Ave', 'Cleaveland', 'OH', '44105', 'USA', '2162323122');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Pooley', 'Mike', '222 Rufio St', 'Schaumburg', 'IL', '60168', 'USA', '8472124499');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Hernandez', 'Sergio', '923 Easycheesy Ct', 'Miami', 'FL', '33113', 'USA', '7861012100');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	Values (
+	'Bryant', 'Kris', '990 Addison St', 'Las Vagas Valley', 'NV', '89011', 'USA', '7255456790');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'Ross', 'David', '640 Lincoln Ave', 'Urbana Champaign', 'IL', '61801', 'USA', '2171822870');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'Kumar', 'Akshay', '200 Boss Baby Ct', 'Atlanta', 'GA', '30301', 'USA', '6781234567');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'Walker', 'Paul', '2264 Century Point Ln', 'Glendale Heights', 'IL', '60139', 'USA', '7083043060');
+INSERT INTO CUSTOMER
+	(LastName, FirstName, Address, City, State, Zip, Country, Phone)
+	VALUES (
+	'Micheal', 'Jackson', '2509 MJ Ct', 'Dallas', 'TX', '75001', 'USA', '2145490971');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'1','1/23/2001','Regular');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'2','2/21/1992','Premium');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'3','3/10/2004','Regular');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'4','4/1/2014','Premium');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'5','5/29/1996','Regular');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'6','6/15/2006','Premium');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'7','7/20/2005','Regular');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'8','8/24/2003','Premium');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'9','9/26/2007','Regular');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'10','10/31/2012','Premium');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'11','11/2/2005','Regular');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'12','12/31/2014','Premium');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'13','1/26/1996','Regular');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'14','2/10/2008','Premium');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'15','3/11/2001','Regular');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'16','4/29/2000','Premium');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'17','5/23/1994','Regular');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'18','6/24/2013','Premium');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'19','7/20/2011','Regular');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'20','10/20/2015','Premium');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'21','9/16/1987','Premium');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'22','9/26/1994','Regular');
+INSERT INTO MEMBERSHIP
+	(CustomerID,JoinDate,MembershipType)
+	Values (
+	'23','4/1/1980','Premium');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'FIFA15', '30', '100');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'FIFA16', '40', '60');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'FIFA17', '50', '30');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Madden16', '35.99','100');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Madden17', '59.99','80');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'NBA LIVE','29.99','50');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'NHL 16', '29.99','40');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'NHL 17','59.99','60');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'UFC 2','39.99','30');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'FIFA15', '30', '100');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'FIFA16', '40', '60');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'FIFA17', '50', '30');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Madden16', '35.99','100');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Madden17', '59.99','80');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'NBA LIVE','29.99','50');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'NHL 16', '29.99','40');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'NHL 17','59.99','60');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'UFC 2','39.99','30');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Battlefield 1','59.99','40');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Need For Speed','19.99','25');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Stars Wars BattleFront','19.99','20');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Titan Falls 2','39.99','30');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Mass Effect Andromeda','69.99','50');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Star Wars BattleFront II','79.99','20');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Plant vs Zombies 2','19.99','15');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Mirror Edge Catalyst','39.99','20');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Battlefield Hardline','29.99','10');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'Dragon Age Inquisition','39.99','22');
+INSERT INTO ITEM
+	(ItemName, Price, QuantityOnHand)
+	Values (
+	'BattleField 4','19.99','12');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'3','2','100');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'5','1','60');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'2','2','80');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'6','4','120');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'1','1','30');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'4','2','72');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'7','3','90');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'8','2','119.98');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'9','1','39.99');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'10','1','59.99');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'11','2','39.98');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'13','2','79.98');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'12','1','19.99');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'14','1','69.99');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'15','1','79.99');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'16','2','39.98');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'17','2','79.98');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'20','2','39.98');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'18','1','29.99');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'19','2','79.98');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'21','1','19.99');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'22','2','80');
+INSERT INTO ORDERITEM
+	(ItemID,NumberOrdered,TotalPrice)
+	Values(
+	'23','1','70');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'2','1','1','4/1/16','1.35','61.35');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'1','2','2','4/5/15','2','102');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'3','3','3','3/3/13','1','81');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'5','4','4','2/21/14','.78','30.78');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'7','5','5','1/29/13','1.30','91.30');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'6','6','6','5/6/14','1.50','73.50');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'8','7','7','4/10/15','4','123.98');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'10','8','8','5/3/15','1.60','61.59');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'9','9','9','5/10/14','1','41');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'12','10','10','5/14/15','2','81.98');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'11','11','11','5/20/16','1.50','41.48');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'13','12','12','5/29/16','.50','20.49');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'14','13','13','6/1/14','2','71.99');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'15','14','14','1/10/13','2','81.99');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'16','16','15','7/10/14','1.50','41.48');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'17','15','16','7/20/13','1','80.98');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'18','17','17','8/1/12','1','40.98');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'4','19','18','8/15/11','5','125');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'19','18','19','8/20/13','1.20','31.19');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'20','20','20','10/20/16','2','81.98');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'21','21','2','2/21/2000','1','21');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'22','22','3','2/26/2004','5','85');
+INSERT INTO "ORDER"
+	(OrderItemID,CustomerID,LocationID,OrderDate,Tax,Total)
+	Values(
+	'23','23','4','3/20/2006','2','72');
